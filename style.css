@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter&display=swap');
+*{
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+}
+body{
+  font-family:Inter,sans-serif ;
+  background: #1c1c1c;
+  color: white;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  width: 48%;
+}
+/* !-----------------------------------------LEMILLIEU------------------------------------- */
+.lemillieu{
+  margin-top: 20px
+}
+/* -----------------------------------------COTER------------------------------------- */
+.coter{
+  display: flex;
+  justify-content: center;
+  height: 700px;
+}
+/* -----------------------------------------COTERGAUCHE------------------------------------- */
+#cotergauche{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+#cotergauche h1{
+font-size: 6rem;
+}
+#cotergauche h3{
+  font-size: 3rem;
+  color: blue;
+}
+/* -------------- ---------------------------COTERDROIT------------------------------------- */
+#coterdroit img{
+  width: 80%;
+}
+/* !-------------- ---------------------------LEBAS------------------------------------- */
+.lebas{
+  background: rgb(15, 14, 14);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between; 
+}
+/* -------------- ---------------------------BASGAUCHE------------------------------------- */
+#lesbouttons{
+  margin-left: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+#lesbouttons button{
+  background: rgb(93, 0, 255);
+  height: 30px;
+  border:none;
+  border-radius: 10px;
+  color: white;
+  margin: 5px;
+}
+/* -------------- ---------------------------BASDROIT------------------------------------- */
+#logoinvestor{
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+}
+#logoinvestor img{
+  width: 150px;
+}
